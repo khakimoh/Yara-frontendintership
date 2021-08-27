@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_heart@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D.00.00-Homepage" transform="translate(-1415.000000, -1348.000000)">
+            <g id="Section-2" transform="translate(-40.000000, 952.000000)">
+                <g id="Row-1" transform="translate(195.000000, 192.000000)">
+                    <g id="1" transform="translate(876.000000, 0.000000)">
+                        <g id="Backers" transform="translate(322.000000, 192.000000)">
+                            <g id="icon_heart" transform="translate(60.000000, 8.000000)">
+                                <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                                <path d="M12,22.35 L10.55,21.03 C5.4,16.36 2,13.28 2,9.5 C2,6.42 4.42,4 7.5,4 C9.24,4 10.91,4.81 12,6.09 C13.09,4.81 14.76,4 16.5,4 C19.58,4 22,6.42 22,9.5 C22,13.28 18.6,16.36 13.45,21.04 L12,22.35 Z" id="Shape" fill="#D50000" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

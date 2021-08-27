@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="607px" height="422px" viewBox="0 0 607 422" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Shapes@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.2870695%" y1="17.2836181%" x2="100%" y2="40.9551949%" id="linearGradient-1">
+            <stop stop-color="#FF0000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FF8A00" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M212,40 L287,40 L287,115 L212,115 L212,40 Z M88,170 L200,170 L200,282 L88,282 L88,170 Z M0,0 L136,0 L136,136 L0,136 L0,0 Z M83,360 L145,360 L145,422 L83,422 L83,360 Z M269,189 L306,189 L306,226 L269,226 L269,189 Z M221,315 L267,315 L267,361 L221,361 L221,315 Z M306,282 L325,282 L325,301 L306,301 L306,282 Z M445,199 L476,199 L476,230 L445,230 L445,199 Z M437,107 L453,107 L453,123 L437,123 L437,107 Z M405,310 L415,310 L415,320 L405,320 L405,310 Z M598,127 L607,127 L607,136 L598,136 L598,127 Z M514,157 L527,157 L527,170 L514,170 L514,157 Z M381,170 L394,170 L394,183 L381,183 L381,170 Z" id="path-2"></path>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D.00.00-Homepage" transform="translate(-36.000000, -157.000000)">
+            <g id="Section-1" transform="translate(36.000000, 157.000000)">
+                <g id="Shapes">
+                    <use fill="#FFCB05" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

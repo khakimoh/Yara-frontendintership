@@ -1,0 +1,48 @@
+.d-none{
+  display: none;
+}
+.alignItems-baseline {
+  align-items: baseline;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.endToStart-flex {
+  justify-content: flex-end;
+}
+.center-flex{
+  justify-content: center;
+}
+.whiteColor {
+  color: white;
+}
+.whiteSmokeColor {
+  color: #bdbdbd;
+}
+.margin-15 {
+  margin: 15px;
+}
+.margin-t5 {
+  margin-top: 5px;
+}
+.margin-t15 {
+  margin-top: 15px;
+}
+.margin-t75 {
+  margin-top: 75px;
+}
+.padding-15 {
+  padding: 15px;
+}
+.padding-lr20 {
+  padding: 0 20px;
+}
+.padding-t10 {
+  padding-top: 10px;
+}
