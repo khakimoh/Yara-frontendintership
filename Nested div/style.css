@@ -1,0 +1,31 @@
+.box {
+  position: relative;
+  border: medium solid darkolivegreen;
+  -webkit-box-shadow: 1px 5px 10px lightgray;
+          box-shadow: 1px 5px 10px lightgray;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.row-attribute {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.row-attribute * {
+  padding: 20px;
+  margin: 5px;
+}
+
+.btn {
+  font-weight: bold;
+  background-color: transparent;
+  border: thin dotted gray;
+}
+
+.red {
+  color: crimson;
+}
+/*# sourceMappingURL=style.css.map */
