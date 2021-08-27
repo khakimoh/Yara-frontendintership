@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container d-flex flex-center" id="Background">
+      <div class="row flex-center text-algin-center space-item box">
+        <div class="col-12">
+          <select name="cityList" id="cityList" class="city-list" onchange="changeCity()">
+            <option value="empty">شهر خود را انتخاب کنید</option>
+            <option value="tehran">تهران</option>
+            <option value="ahvaz">اهواز</option>
+            <option value="mashhad">مشهد</option>
+            <option value="kish">کیش</option>
+          </select>
+        </div>
+        <div class="col-12 d-inline-flex flex-center city">
+          <i class="fas fa-map-marker-alt city" id="map-icon"></i>
+          <h3 class="city" id="city"></h3>
+        </div>
+        <div class="col-12 text-algin-center">
+          <div id="status" class="status"></div>
+        </div>
+        <div class="col-12 text-algin-center">
+          <div id="temperature" class="temperature"></div>
+        </div>
+        <div class="col-12 text-algin-center">
+          <img
+            src="./asset/images/cloudy.svg"
+            class="icon-cloud"
+            id="img-status"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="./asset/js/weather.js"></script>
+    <script>
+      function setBackgroundSize() {
+        var x = window.innerHeight + "px";
+        return x;
+      }
+      document.getElementById("Background").style.height = setBackgroundSize();
+    </script>
+  </body>
+</html>

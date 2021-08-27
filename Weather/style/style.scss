@@ -1,0 +1,67 @@
+@import url("flex-responsive-row.css");
+@import "_variable";
+
+body {
+  background-color: $baseColor;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 25%;
+  margin: auto;
+}
+
+.center-in-center {
+  position: relative;
+}
+
+.center-in-center div {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-algin-center {
+  text-align: center;
+}
+
+.box {
+  height: 40%;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(145deg, #383838, #2f2f2f);
+  border-radius: 60px;
+  padding: $padding-size;
+  box-shadow: 5px 5px 9px #1b1b1b, -5px -5px 9px #4d4d4d;
+}
+
+.city {
+  padding: 5px;
+}
+
+.status {
+  font-size: 1rem;
+}
+
+.space-item div {
+  margin: 5px 0;
+}
+
+.icon-cloud {
+  width: 30%;
+}
+
+.temperature{
+  font-size: 2em;
+}
+
+.city-list{
+  background-color: $baseColor;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
