@@ -1,0 +1,120 @@
+@import url("../normalize.css");
+@import url("../flex-responsive-row.css");
+@import "../_variable";
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  background: linear-gradient(to bottom, $baseColor 50%, whitesmoke 50%);
+}
+
+.center-in-center {
+  position: relative;
+}
+
+.center-in-center > div {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid {
+  display: grid;
+  gap: $padding-base;
+}
+
+.col-g-1-1-1 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.baseline {
+  justify-content: baseline;
+}
+
+.box-parent {
+  width: 50%;
+  padding: $padding-base12;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.box-child {
+  border-radius: 5px;
+  min-height: 150px;
+}
+
+.box-tittle {
+  text-align: right;
+}
+
+.icon {
+  width: 15%;
+  padding: $padding-base $padding-base $padding-base $padding-base * 3;
+}
+
+.title {
+  padding-left: $padding-base * 3;
+  margin: 0;
+}
+
+.number {
+  padding: $padding-base * 3;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.flag{
+  max-height: 50px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.search-form{
+  padding: $padding-base*3;
+  text-align: center;
+}
+
+.search-form input{
+  padding: $padding-base;
+}
+
+.search-form button{
+  padding: $padding-base;
+  cursor: pointer;
+}
+
+.search-form button:hover{
+  padding: $padding-base;
+  cursor: pointer;
+  border-color: $baseColor;
+}
+
+.blue {
+  background-color: hsl(208, 100%, 63%);
+}
+
+.red {
+  background-color: hsl(0, 100%, 60%);
+}
+
+.darkRed {
+  background-color: hsl(0, 66%, 55%);
+}
+
+.pink {
+  background-color: hsl(340, 100%, 50%);
+}
+
+.green {
+  background-color: hsl(122, 57%, 45%);
+}
+
+.orange {
+  background-color: hsl(39, 100%, 50%);
+}

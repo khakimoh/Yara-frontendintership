@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./asset/style/custom/style.css" />
+  <title>Covid Statistics</title>
+</head>
+
+<body>
+  <div class="container center-in-center" id="Background">
+    <div class="box-parent">
+      <div class="row">
+        <div class="col-6">
+          <h3 class="box-tittle" id="tittle">Covi-19 cases in IRAN</h3>
+        </div>
+        <div class="col-6">
+          <img src="./asset/images/ir.png" class="flag" id="flag">
+        </div>
+      </div>
+      <form class="search-form row">
+        <input class="col-6" type="text" placeholder="Search.." id="search-box" />
+        <button class="col-6" type="button" onclick="changeCountry()">Search</button>
+      </form>
+
+      <div class="grid col-g-1-1-1 baseline">
+        <div class="box-child blue">
+          <img src="./asset/images/speed.png" class="icon" />
+          <h5 class="title">Active cases</h5>
+          <p class="number" id="active">27</p>
+        </div>
+        <div class="box-child red">
+          <img src="./asset/images/error.png" class="icon" />
+          <h5 class="title">Critical</h5>
+          <p class="number" id="critical">27</p>
+        </div>
+        <div class="box-child green">
+          <img src="./asset/images/checkmark.png" class="icon" />
+          <h5 class="title">Recovered</h5>
+          <p class="number" id="recovered">27</p>
+        </div>
+        <div class="box-child darkRed">
+          <img src="./asset/images/chart.png" class="icon" />
+          <h5 class="title">Total cases</h5>
+          <p class="number" id="cases">27</p>
+        </div>
+        <div class="box-child pink">
+          <img src="./asset/images/close.png" class="icon" />
+          <h5 class="title">Total deaths</h5>
+          <p class="number" id="deaths">27</p>
+        </div>
+        <div class="box-child orange">
+          <img src="./asset/images/view.png" class="icon" />
+          <h5 class="title" id="tests">Total tests done</h5>
+          <p class="number">27</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./asset/js/coronaData.js"></script>
+  <script>
+    function setBackgroundSize() {
+      var x = window.innerHeight + "px";
+      return x;
+    }
+    document.getElementById("Background").style.height = setBackgroundSize();
+  </script>
+</body>
+
+</html>
