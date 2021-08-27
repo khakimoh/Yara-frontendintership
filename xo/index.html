@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>XO</title>
+  </head>
+  <body>
+    <div class="container p-relative" id="Background">
+      <div class="grid col-g-1-1-1 xo-box full-size">
+        <div onclick="itemSet('item1')" id="item1"></div>
+        <div onclick="itemSet('item2')" id="item2"></div>
+        <div onclick="itemSet('item3')" id="item3"></div>
+        <div onclick="itemSet('item4')" id="item4"></div>
+        <div onclick="itemSet('item5')" id="item5"></div>
+        <div onclick="itemSet('item6')" id="item6"></div>
+        <div onclick="itemSet('item7')" id="item7"></div>
+        <div onclick="itemSet('item8')" id="item8"></div>
+        <div onclick="itemSet('item9')" id="item9"></div>
+      </div>
+    </div>
+    <div class="container p-relative">
+      <button onclick="resetGame()" class="center-horizontal btn">Reset Game</button>
+      <div id="starter" class="center-horizontal starter">Choese Starter</div>
+      <div class="grid col-g-1-1">
+        <button onclick="roundDeterminant(this.id)" id="btn-x" class="center-horizontal btn">x</button>
+        <button onclick="roundDeterminant(this.id)" id="btn-o" class="center-horizontal btn">o</button>
+      </div>
+        <div id="winner" class="win"></div>
+        <div id="round" class="d-none"></div>
+      </div>
+    </div>
+
+    <script src="./xo.js"></script>
+    <script>
+      function setBackgroundSize() {
+        var x = window.innerHeight * 0.6 + "px";
+        return x;
+      }
+      document.getElementById("Background").style.height =
+        setBackgroundSize();
+    </script>
+  </body>
+</html>
