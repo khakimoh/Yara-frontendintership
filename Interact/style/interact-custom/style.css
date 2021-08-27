@@ -1,0 +1,256 @@
+@import url("../flex-responsive-row.css");
+@import url("../grid-responsive.css");
+@import url("../extra.css");
+
+body {
+  margin: 0;
+}
+
+.nav-bar {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  top: 0px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.nav-content ul li {
+  display: inline-block;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  transition: all 0.2s step-end;
+}
+
+.nav-content ul li:hover {
+  cursor: pointer;
+  border-bottom: medium solid #6372ff;
+  color: #6372ff;
+}
+
+.nav-content ul li.active {
+  border-bottom: medium solid #6372ff;
+  color: #6372ff;
+}
+
+.nav-content ul li a::after {
+  text-decoration: underline;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.interact {
+  width: 30%;
+  font-weight: bold;
+}
+
+.title-center {
+  color: white;
+  font-weight: bold;
+}
+
+h1.title-center {
+  font-size: 82px;
+}
+
+button.title-center {
+  background-color: #6372ff;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.shadow-text {
+  text-shadow: 1px 1px 1px black;
+}
+
+.feature-background {
+  background-color: #f6f6f6;
+}
+
+.textAlign-center {
+  text-align: center;
+}
+
+.feature-title {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+}
+
+.feature-title-small {
+  font-size: 20px;
+}
+
+.feature-title::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+
+.feature-awesome {
+  text-align: center;
+}
+
+.feature-awesome i {
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  font-size: 38px;
+  border-radius: 50%;
+  padding: 30px;
+  color: white;
+}
+
+.feature-awesome p {
+  color: #777;
+}
+
+img.aboutUs {
+  max-width: 100%;
+}
+
+h2.about-us-title {
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.about-us-title-small {
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+}
+
+h2.about-us-title::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 10px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+
+p.about-us-title {
+  padding: 10px;
+  color: #777;
+}
+
+.why-choose-us {
+  padding: 0;
+}
+
+.why-choose-us li {
+  padding: 5px;
+  color: #777;
+  list-style: none;
+}
+
+.why-choose-us li::before {
+  content: "✓";
+  padding-right: 5px;
+  color: #5ca9fb;
+}
+
+.our-services-background {
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+}
+
+h2.our-services {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+h2.our-services::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+
+.our-services-item {
+  text-align: center;
+}
+
+.our-services-item i {
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  font-size: 38px;
+  border-radius: 50%;
+  padding: 30px;
+  color: white;
+}
+
+.overlay-gallery {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: linear-gradient(to right,
+      rgba(99, 114, 255, 0.8) 0%,
+      rgba(92, 169, 251, 0.8) 100%);
+}
+
+.gallery {
+  position: relative;
+  width: 100%;
+}
+
+.overlay-gallery:hover {
+  opacity: 1;
+}
+
+.gallery-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.client-say-background {
+  background-color: #f6f6f6;
+}
+
+p.client-say {
+  margin: 0;
+  color: #777;
+}
+
+img.client-say {
+  border-radius: 50%;
+}
