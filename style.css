@@ -1,56 +1,57 @@
-@import url("./flex-responsive-row.css");
-
 body {
-  background-color: #404040;
-  margin: 0;
+    background-color: hsl(181, 100%, 9%);
 }
 
 .container {
+  max-width: 66%;
   width: 100%;
-  max-width: 60%;
   margin: auto;
-  padding: 20px;
 }
 
-.center-in-center {
-  position: relative;
-}
-
-.center-in-center div {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.text-algin-center {
-  text-align: center;
-}
-
-.box-size {
-  width: 100%;
-}
-
-.box {
-  height: 50px;
-  font-size: 1.6em;
-  font-weight: bold;
-  color: white;
-  background: #2f2f2f;
-  border-radius: 5px;
+.grid {
+  display: grid;
+  gap: 35px;
   padding: 5px;
-  box-shadow: 5px 5px 9px #1b1b1b;
-  border: medium solid white;
+  grid-auto-rows: minmax(30px, auto);
 }
 
-.hide {
-  visibility: hidden;
+.lastProject {
+  grid-area: lastProject;
 }
 
-.link {
-  cursor: pointer;
+.another {
+  grid-area: another;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.another div {
+  text-align: center;
+}
+
+.template {
+  grid-template-areas:
+    "lastProject"
+    "another";
+  place-self: center;
+  text-align: center;
+}
+
+.box a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: wheat;
+  min-height: 100px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #005153, #006062);
+  box-shadow: 1px 5px 10px #003738, -1px -5px 10px #007d80;
+  border: medium double wheat;
   text-decoration: none;
+}
+
+.box a:hover {
+  font-weight: bold;
+  border: medium double crimson;
+  box-shadow: 1px 5px 10px #003738, -1px -5px 10px crimson;
+  cursor: pointer;
 }
