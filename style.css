@@ -1,0 +1,56 @@
+@import url("./flex-responsive-row.css");
+
+body {
+  background-color: #404040;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+
+.center-in-center {
+  position: relative;
+}
+
+.center-in-center div {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-algin-center {
+  text-align: center;
+}
+
+.box-size {
+  width: 100%;
+}
+
+.box {
+  height: 50px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: white;
+  background: #2f2f2f;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 9px #1b1b1b;
+  border: medium solid white;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.link {
+  cursor: pointer;
+  color: wheat;
+  text-decoration: none;
+}
